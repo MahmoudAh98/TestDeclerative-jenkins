@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('SCM Check out') {
             steps {
+                echo "From github"
                 sh "date"
             }
         }
